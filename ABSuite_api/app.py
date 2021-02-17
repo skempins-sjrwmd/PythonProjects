@@ -9,4 +9,4 @@ def home():
 
 @app.route("/api/vendors")
 def api_vendors():
-	return flask.jsonify(vendor_data.db)
+	return flask.jsonify({"vendors": vendor_data.db })

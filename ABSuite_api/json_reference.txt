@@ -1,0 +1,57 @@
+//JSON Object
+{  
+    "employee": {  
+        "id": 1,
+        "name": "Admin",   
+        "location": "USA"
+    }  
+}
+ 
+//JSON Array
+{  
+"employees": [
+         {  
+            "id": 1,
+            "name": "Admin",   
+            "location": "India"
+         },
+         {  
+            "id": 2,
+            "name": "Author",   
+            "location": "USA"
+         },
+         {  
+            "id": 3,
+            "name": "Visitor",   
+            "location": "USA"
+         }
+    ]  
+}
+
+// Vendors
+{ "vendors":
+	[
+    	{
+        	"addr_1_txt": "5575 N ATLANTIC AVE,",
+	        "attn_txt": " ",
+    	    "bnk_no": "0",
+        	"mnrty_cd": " ",
+	        "pay_tp": "S",
+    	    "ten99_cd": " ",
+        	"vndr_cd": "03301",
+	        "vndr_nm": "HOLIDAY INN EXPRESS HOTEL",
+    	    "vndr_tp_cd": " "
+    	},
+    	{
+	        "addr_1_txt": "405 ANDREWS RD,",
+    	    "attn_txt": " ",
+        	"bnk_no": "0",
+	        "mnrty_cd": " ",
+    	    "pay_tp": "S",
+        	"ten99_cd": " ",
+	        "vndr_cd": "03302",
+    	    "vndr_nm": "INDUSTRIAL SUPPLIES CO.",
+        	"vndr_tp_cd": " "
+    	}
+	]
+}
