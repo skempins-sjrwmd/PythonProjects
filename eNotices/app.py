@@ -5,7 +5,7 @@ app = flask.Flask(__name__)
 
 @app.route("/")
 def home():
-    return "eNotices"
+	return "eNotices"
 
 @app.route("/api/current")
 def api_current():
